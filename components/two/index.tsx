@@ -54,11 +54,11 @@ export default function LandingPage(){
                     >
                         <div className="bg-red-400 text-white rounded-xl p-1 px-2 flex items-center gap-1">
                             
-                            31%
-                        </div>
+                        31%
+                    </div>
                         <div className="text-gray-800 font-medium">
-                            Increased AOV Value
-                        </div>
+                        Increased AOV Value
+                    </div>
                     </motion.div>
                     
                     <motion.h1 
@@ -67,7 +67,7 @@ export default function LandingPage(){
                         transition={{ duration: 0.3, delay: 0.2, ease: "easeOut" }}
                         className="text-5xl font-bold text-gray-900 max-w-4xl"
                     >
-                        Cut Support Tickets & Let <br /> Customers Edit Orders 
+                    Cut Support Tickets & Let <br /> Customers Edit Orders 
                     </motion.h1>
                     
                     <motion.p 
@@ -91,7 +91,7 @@ export default function LandingPage(){
                             transition={{ duration: 0.1 }}
                             className="bg-white border border-red-400 px-6 py-3 rounded-xl text-red-400 font-medium hover:bg-red-50 transition-colors"
                         >
-                            Get Demo
+                        Get Demo
                         </motion.button>
                         <motion.button 
                             whileHover={{ y: -1 }}
@@ -99,17 +99,17 @@ export default function LandingPage(){
                             transition={{ duration: 0.1 }}
                             className="text-md font-medium text-white bg-red-400 p-2 px-6 rounded-xl flex justify-center items-center gap-2 hover:bg-red-500 transition-colors"
                         >
-                            <span>
-                                <Image
-                                src='/shopify.png'
-                                alt="shopify"
-                                width={20}
-                                height={10}
+                <span>
+                    <Image
+                    src='/shopify.png'
+                    alt="shopify"
+                    width={20}
+                    height={10}
                                 />
-                            </span>
-                            <div>
-                                Install Customizer
-                            </div>
+                </span>
+                <div>
+                Install Customizer
+                </div>
                         </motion.button>
                     </motion.div>
                 </motion.div>
@@ -339,7 +339,7 @@ export default function LandingPage(){
                     </motion.div>
                 </div>
             </div>
-        </div>
+    </div>
     );
 }
 
@@ -403,20 +403,20 @@ const Card2 = () => {
                 </div>
                 <div className="text-gray-700 font-medium">
                     Update Contact Information
-                </div>
             </div>
+        </div>
 
             <div className="mt-3 p-4 bg-white rounded-xl space-y-3 shadow-lg border border-gray-100">
                 <div className="text-xs text-gray-600 font-medium">
-                    Phone
-                </div>
+                Phone
+            </div>
                 <input 
                     className="bg-gray-100 rounded-lg w-full px-3 py-2 text-sm border-0 focus:ring-2 focus:ring-red-400 focus:outline-none" 
                     placeholder="+091 12345 67890" 
                     type="text" 
                 />
                 <div className="text-xs text-gray-600 font-medium">
-                    Email
+                Email
                 </div>
                 <input 
                     className="bg-gray-100 rounded-lg w-full px-3 py-2 text-sm border-2 border-red-400 focus:ring-2 focus:ring-red-400 focus:outline-none" 
@@ -441,13 +441,13 @@ const Card3 = () => {
                 </div>
                 <div className="text-gray-700 font-medium">
                     Update Shipping Address
-                </div>
+            </div>
             </div>
 
             <div className="mt-3 p-4 bg-white rounded-xl space-y-3 shadow-lg border border-gray-100">
                 <div className="text-xs text-gray-600 font-medium">
                     Shipping Address
-                </div>
+        </div>
                 <input 
                     className="bg-gray-100 rounded-lg w-full px-3 py-2 text-sm border-0 focus:ring-2 focus:ring-red-400 focus:outline-none" 
                     placeholder="City" 
@@ -493,19 +493,19 @@ const Card4 = () => {
                         </div>
                         <div className="w-4 h-4 rounded-full border-2 border-red-400 bg-red-400 flex items-center justify-center">
                             <div className="w-2 h-2 rounded-full bg-white"></div>
-                        </div>
-                    </div>
-                    
+            </div>
+        </div>
+
                     <div className="flex items-center justify-between p-2 rounded-lg border border-gray-200">
                         <div className="flex-1 flex items-center gap-2">
                             <Clock size={12} className="text-gray-500" />
-                            <div>
+                <div>
                                 <div className="text-xs font-medium text-gray-900">FAST DELIVERY (+$5)</div>
                                 <div className="text-xs text-gray-600">Tuesday, 3 March</div>
                             </div>
                         </div>
                         <div className="w-4 h-4 rounded-full border-2 border-gray-300"></div>
-                    </div>
+                </div>
                 </div>
             </div>
         </motion.div>
@@ -522,11 +522,11 @@ const Card5 = () => {
             <div className="bg-white rounded-xl flex gap-2 items-center text-xs p-3 shadow-lg border border-gray-100">
                 <div className="text-gray-500">
                     <Calendar size={16} />
-                </div>
-                <div className="text-gray-700 font-medium">
-                    Change Quantities / Remove Items
-                </div>
             </div>
+                <div className="text-gray-700 font-medium">
+            Change Quantities / Remove Items
+            </div>
+        </div>
 
             <div className="mt-3 p-4 bg-white rounded-xl space-y-3 shadow-lg border border-gray-100">
                 <div className="flex items-center gap-3">
@@ -549,10 +549,10 @@ const Card5 = () => {
                                 value="2" 
                                 className="w-16 px-2 py-1 text-sm border-2 border-red-400 rounded focus:ring-2 focus:ring-red-400 focus:outline-none bg-white"
                             />
-                        </div>
-                    </div>
-                </div>
-                
+            </div>
+            </div>
+        </div>
+
                 <motion.button 
                     whileHover={{ y: -1 }}
                     whileTap={{ y: 0 }}
@@ -561,7 +561,7 @@ const Card5 = () => {
                 >
                     Remove Item
                 </motion.button>
-            </div>
+    </div>
         </motion.div>
     );
 }
