@@ -44,7 +44,7 @@ export default function EnhancedGrokLanding() {
       opacity: 1,
       y: 0,
       transition: {
-        duration: 1,
+        duration: 0.3,
         ease: [0.25, 0.46, 0.45, 0.94],
       },
     },
@@ -56,8 +56,8 @@ export default function EnhancedGrokLanding() {
       opacity: 1,
       y: 0,
       transition: {
-        delay: i * 0.1 + 0.2,
-        duration: 0.5,
+        delay: i * 0.05 + 0.1,
+        duration: 0.2,
         ease: "easeOut",
       },
     }),
@@ -69,8 +69,8 @@ export default function EnhancedGrokLanding() {
       opacity: 1,
       y: 0,
       transition: {
-        delay: delay * 0.2 + 0.3,
-        duration: 1,
+        delay: delay * 0.1 + 0.15,
+        duration: 0.3,
         ease: [0.25, 0.46, 0.45, 0.94],
       },
     }),
