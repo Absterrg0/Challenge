@@ -182,7 +182,7 @@ export default function EnhancedGrokLanding() {
 
             {/* Content layer */}
             <div className="relative px-8 py-4">
-              <div className="flex items-center justify-between">
+          <div className="flex items-center justify-between">
                 <motion.div
                   className="flex items-center space-x-3 cursor-pointer group"
                   onClick={() => handleScroll("hero")}
@@ -248,7 +248,7 @@ export default function EnhancedGrokLanding() {
                 </div>
               </div>
             </div>
-
+            
             {/* Subtle bottom shadow */}
             <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-black/30 to-transparent"></div>
           </motion.div>
@@ -377,11 +377,11 @@ export default function EnhancedGrokLanding() {
             >
               <span className="absolute inset-0 bg-gradient-to-r from-purple-400/15 via-cyan-400/15 to-green-400/15 blur-2xl"></span>
               <span className="relative bg-gradient-to-r from-gray-200 via-white to-gray-300 bg-clip-text text-transparent drop-shadow-2xl">
-                Actually Gets You
+            Actually Gets You
               </span>
             </motion.span>
           </h1>
-
+          
           <motion.p
             className="text-xl text-gray-300 max-w-4xl mx-auto mb-8 leading-relaxed relative"
             variants={heroVariants}
@@ -392,7 +392,7 @@ export default function EnhancedGrokLanding() {
             <span className="relative inline-block">
               <span className="absolute inset-0 bg-white/5 blur-xl rounded-lg"></span>
               <span className="relative font-medium tracking-wide">
-                Smart, fast, and a little witty - Grok turns everyday questions into clear answers,
+            Smart, fast, and a little witty - Grok turns everyday questions into clear answers, 
                 <br className="hidden sm:block" />
                 right inside your dashboard with unprecedented intelligence.
               </span>

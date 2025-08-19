@@ -3,6 +3,16 @@
 
 @custom-variant dark (&:is(.dark *));
 
+
+html body{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.custom-clip {
+  clip-path: polygon(50% 85%, 100% 38%, 100% 100%, 0 100%, 0% 38%);
+}
+
 :root {
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
